@@ -84,7 +84,7 @@ class Colima(Agent.TV_Shows):
 
         log("Title: '%s', name: '%s', filename: '%s', manual: '%s', year: '%s'" % (title, media.name, filename, str(manual), media.year))
 
-        if not filename.find(ident):
+        if filename.find(ident) == -1:
             log('Could not find movie identifactor. Hand this file over to the TVDB agent (via fallback mechanism).')
             results.Append(MetadataSearchResult(id='', name=title, year=media.year, lang=lang, score=0))
         else:
