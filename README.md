@@ -29,7 +29,7 @@ As already pointed out, Plex does not natively support movies within a tv show l
 
 1. Find out where your Plex installation is located at, see [Plex help article](https://support.plex.tv/hc/en-us/articles/201106098-How-do-I-find-the-Plug-Ins-folder- "Plex help article").
 2. Install [Absolute Series Scanner (ASS)](https://github.com/ZeroQI/Absolute-Series-Scanner/ "Absolute Series Scanner (ASS)") 
-3. Download and copy the unzipped Colima.bundle into the Plug-ins folder of your installation
+3. Download and copy the unzipped Colima.bundle into the Plug-ins folder of your installation. Be sure to rename **Colima.bundle-master** (as found in the ZIP) to **Colima.bundle** in the Plug-ins folder.
 
 A Plex server restart might be required for the Agent to appear.
 
